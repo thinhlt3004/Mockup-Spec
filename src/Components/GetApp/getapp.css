@@ -1,0 +1,26 @@
+.getapp__container {
+  background: #1f1f1f;
+  padding: 24px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.getapp__left {
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+}
+.getapp__title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 4px;
+}
+.getapp__content {
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.65);
+  opacity: 0.8;
+}

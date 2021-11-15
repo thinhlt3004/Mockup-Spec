@@ -1,0 +1,131 @@
+.about__container {
+    background: #1f1f1f;
+    border-radius: 8px;
+    padding: 24px 24px 17px;
+    margin-bottom: 24px;
+  }
+  
+  .about__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 13px;
+  }
+  
+  .about__mainCatgegory {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px;
+  }
+  .about__tags {
+    display: flex;
+    margin: 9px 0px 23px;
+  }
+  
+  .about__tags-item {
+    background-color: #141414;
+    border: 1px solid #434343;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.65);
+    cursor: pointer;
+  }
+  .about__subtitle {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .about__summary-content {
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.65);
+    opacity: 0.8;
+  }
+  .about__button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 17px;
+  }
+  .about__view-more-hide {
+    height: 0px;
+    overflow: hidden;
+  }
+  .about__view-more {
+    height: 100%;
+  }
+  
+  .about__button-container.hide {
+    /* visibility: hidden; */
+    display: none;
+    transition: all 0.2s ease;
+  }
+  .about__button {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    opacity: 0.8;
+    margin: 0;
+    cursor: pointer;
+  }
+  
+  .about__img-container {
+    margin: 16px 0px 22px;
+    display: flex;
+    align-items: center;
+  }
+  .about__img-list {
+    border-radius: 4px;
+    width: 84.2px;
+    min-width: 15%;
+    height: 126px;
+    margin-right: 8px;
+  }
+  
+  .about__credit-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+  }
+  .about__credit-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 14px;
+  }
+  .about__credit-content {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about__credit-name {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  
+  .about__credit-type {
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.45);
+  }
+  
+  .about__fact-item {
+    display: flex;
+    align-items: center;
+  }
+  .about__fact-type {
+    font-size: 14px;
+    line-height: 22px;
+    color: rgba(255, 255, 255, 0.45);
+    width: 90px;
+  }
+  
+  .about__fact-desc {
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: 8px;
+  }

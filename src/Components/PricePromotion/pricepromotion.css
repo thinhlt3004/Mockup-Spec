@@ -1,0 +1,108 @@
+.price-promotion__container {
+  background: #1f1f1f;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+.price-promotion__title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+}
+.price-promotion__row {
+  width: 100%;
+  border-radius: 8px;
+  background-color: #242424;
+  opacity: 0.8;
+}
+.price-promotion__col {
+  padding: 16px;
+}
+
+.price-promotion__col.half {
+  border-right: 1px solid #141414;
+}
+.price-promotion__col.full {
+  border-top: 1px solid #141414;
+}
+.price-promotion__col-left-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.price-promotion__col-full-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.price-promotion__col-right-border {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+  width: 70px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.price-promotion__col-INKR-extra {
+  color: #a379ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+.price-promotion__small {
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.45);
+}
+.price-promotion__small-content {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.85);
+}
+.price-promotion__col-right-content-top {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 0px 8px 8px 0px;
+  height: 40px;
+  min-width: 89px;
+  justify-content: center;
+}
+
+.price-promotion__col-right-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.price-promotion__col-right-content-old-price {
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration-line: line-through;
+  color: rgba(255, 255, 255, 0.3);
+  margin: 0px 5px;
+}
+.price-promotion__col-right-content-discount {
+  background: #651fff;
+  border-radius: 8px 0px 0px 8px;
+  width: 60px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+}
+.price-promotion__end-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.45);
+  cursor: pointer;
+}

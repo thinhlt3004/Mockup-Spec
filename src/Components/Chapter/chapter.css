@@ -1,0 +1,96 @@
+.chapter__container_last {
+  margin: 10px;
+  background: #242424;
+  border-radius: 8px;
+  display: flex;
+  padding: 12px;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.chapter__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.chapter__container_list {
+  background: #242424;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.chapter__block-opacity {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chapter__block-icon-container {
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.45);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chapter__left {
+  display: flex;
+  align-items: center;
+}
+.chapter__content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 12px;
+}
+.chapter__img-container {
+  position: relative;
+}
+.chapter__progress-bar {
+  width: 54px;
+  height: 4px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.chapter__name {
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.65);
+}
+.chapter__date {
+  font-size: 12px;
+  line-height: 20px;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.45);
+}
+.chapter__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chapter__price {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.65);
+}
